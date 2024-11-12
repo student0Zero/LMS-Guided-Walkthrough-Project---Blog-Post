@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+
 import os 
 import dj_database_url
 if os.path.isfile('env.py'):
@@ -27,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fg(zhsfff_zx+*!#02l6s)&we(1uo&-n1moy3m()*zp^drot6r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["8000-student0zer-lmsguidedwa-m1bgpo42onx.ws.codeinstitute-ide.net",
 ".herokuapp.com"
